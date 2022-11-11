@@ -1,0 +1,6 @@
+let vow = ['q', 'i', 'o', 'u', 'g'];
+let str = vow.toString();
+function countVowel(str){
+    return num = str.match(/[a,e,i,o,u]/gi).length;
+}
+console.log(countVowel(str));
